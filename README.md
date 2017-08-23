@@ -11,7 +11,7 @@ The nickname **base64url** can be used for the **cl-base64url** package.
 		Encode a base64url string
 		
 		Example:
-			(base64url:encode-base64url-string "Hello, World!")
+		    (base64url:encode-base64url-string "Hello, World!")
 		=> "SGVsbG8sIFdvcmxkIQ"
 		
 
@@ -21,13 +21,13 @@ The nickname **base64url** can be used for the **cl-base64url** package.
 		Decode a base64url string
 		
 		Example:
-			(base64url:decode-base64url-string "SGVsbG8sIFdvcmxkIQ")
+		    (base64url:decode-base64url-string "SGVsbG8sIFdvcmxkIQ")
 		=> "Hello, World!"
 
 #### Repository
 [https://github.com/stablecross/cl-base64url](https://github.com/stablecross/cl-base64url)
 
-####License
+#### License
 **cl-base64url** is available under a BSD-like license.  See the file LICENSE for
 details.
 
